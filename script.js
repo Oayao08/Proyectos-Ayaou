@@ -1,4 +1,4 @@
-console.log("Bienvenido al portafolio de Omar.");
+console.log("Bienvenido a mi portafolio");
 
 const fadeElements = document.querySelectorAll('.fade-in');
 
@@ -26,7 +26,7 @@ document.querySelectorAll('a[href^="#"]').forEach(enlace => {
   });
 });
 
-// ---Navbar efecto al subir/bajar pàgina---
+// ---Navbar efecto subir/bajar pàgina---
 let lastScrollY = window.scrollY;
 const navbar = document.querySelector('.navbar');
 
